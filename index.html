@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST example</title>
+</head>
+<body>
+
+<form method="POST">
+    <input type="number" name="a">
+    <input type="number" name="b">
+    <button type="submit">Hisobla</button>
+</form>
+
+{% if result is not none %}
+<h2>Natija: {{ result }}</h2>
+{% endif %}
+    
+</body>
+</html>
